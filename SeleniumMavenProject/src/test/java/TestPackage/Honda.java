@@ -24,7 +24,10 @@ public class Honda extends Cars{
 	c1.carStyle();
 	c1.carType();
 	
+	
+	//Commenting out code to avoid java.lang.ClassCastException
 	//Down casting is not permitted, will get java.lang.ClassCastException
+/*
 	Honda d1=(Honda) new Cars();
 	try {
 	d1.carEngine();
@@ -36,5 +39,6 @@ public class Honda extends Cars{
 	}
 	catch(Exception e) {
 	}
+*/
 }
 }
